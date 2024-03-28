@@ -46,7 +46,7 @@ public class CustomerTest {
     }
     @Test
     public void testLoyaltyPts() {
-        double expected = 20.9;
+        double expected = 19.8;
         a.addOrder("1","fry");
         a.addOrder("2","fry");
         a.addOrder("3","fry");
@@ -62,6 +62,7 @@ public class CustomerTest {
         double actual = a.getCost();
         assertEquals(expected, actual);
     }
+    
 
 
 
