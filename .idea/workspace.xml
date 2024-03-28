@@ -4,30 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a05afb84-f1e2-4687-9666-54446d6fc26b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/CompleteUnitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/burgers/BasicBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/BasicBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/burgers/Burger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Food.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/burgers/BurgerDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/BurgerDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/burgers/CheeseBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/CheeseBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/burgers/ExtraPatty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/ExtraPatty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fries/BasicFry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/BasicFry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fries/CheeseFry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/CheeseFry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fries/Fry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fries/FryDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/FryDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/fries/Gravy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Gravy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hotdogs/BasicHotDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/BasicHotDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hotdogs/CheeseDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/CheeseDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hotdogs/ChiliDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/ChiliDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hotdogs/HotDog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hotdogs/HotDogDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/HotDogDecorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BurgerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BurgerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HotdogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotdogTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="a05afb84-f1e2-4687-9666-54446d6fc26b" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -142,5 +119,33 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="false" />
+                </map>
+              </option>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="food" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
