@@ -24,7 +24,7 @@ public class Loyalty {
         }
     }
     public void addPts() {
-        this.pts += 1;
+        this.pts += 2;
         updateStatus();
     }
 

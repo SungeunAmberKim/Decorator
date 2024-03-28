@@ -33,7 +33,7 @@ public class Customer {
     public int orderSize() {
         return this.order.size();
     }
-    public void wah() {
+    public void print() {
         System.out.println("Total cost: " + this.getCost());
         System.out.println("Description: ");
         this.order.forEach((key, value) -> System.out.println(key + ": " + value));
