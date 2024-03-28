@@ -5,10 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a05afb84-f1e2-4687-9666-54446d6fc26b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/BurgerDecorator.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/CheeseBurger.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/CheeseDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseFry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/CheeseFry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/ChiliDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/ChiliDog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/ExtraPatty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/ExtraPatty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/Gravy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Gravy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/HotDogDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Decorator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,63 +57,58 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.CustomerTest.testAddPoints">
-    <configuration name="CompleteUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.HotdogTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="Decorator" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BurgerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Decorator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CompleteUnitTest" />
+      <option name="MAIN_CLASS_NAME" value="BurgerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.testAddPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CustomerTest.testAddOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Decorator" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="testAddPoints" />
+      <option name="METHOD_NAME" value="testAddOrder" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.testGetName" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Decorator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="testGetName" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="FryTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.testGetOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HotdogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Decorator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="testGetOrder" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CustomerTest.testGetPoints" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Decorator" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="testGetPoints" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="HotdogTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.CustomerTest.testAddPoints" />
-        <item itemvalue="JUnit.CustomerTest.testGetPoints" />
-        <item itemvalue="JUnit.CustomerTest.testGetOrder" />
-        <item itemvalue="JUnit.CustomerTest.testGetName" />
-        <item itemvalue="JUnit.CompleteUnitTest" />
+        <item itemvalue="JUnit.HotdogTest" />
+        <item itemvalue="JUnit.FryTest" />
+        <item itemvalue="JUnit.BurgerTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.CustomerTest.testAddOrder" />
       </list>
     </recent_temporary>
   </component>

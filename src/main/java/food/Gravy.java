@@ -1,15 +1,13 @@
 package food;
 
-import food.FryDecorator;
-
-public class Gravy extends FryDecorator {
+public class Gravy extends Decorator {
     public Gravy(Food newFry) {
         super(newFry);
     }
     public String getDescription() {
-        return tempFry.getDescription() + ", Gravy";
+        return tempFood.getDescription() + ", Gravy";
     }
     public double getCost() {
-        return tempFry.getCost() + 0.5;
+        return tempFood.getCost() + 0.5;
     }
 }

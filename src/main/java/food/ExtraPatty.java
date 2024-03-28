@@ -1,14 +1,14 @@
 package food;
 
-public class ExtraPatty extends BurgerDecorator{
+public class ExtraPatty extends Decorator{
     public ExtraPatty(Food newBurger) {
         super(newBurger);
     }
     public String getDescription() {
-        return tempBurger.getDescription() + ", Patty";
+        return tempFood.getDescription() + ", Patty";
     }
     public double getCost() {
-        return tempBurger.getCost() + 1.5;
+        return tempFood.getCost() + 1.5;
     }
 
 }

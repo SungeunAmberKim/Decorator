@@ -24,6 +24,13 @@ public class CustomerTest {
         int actual = a.getPoints();
         assertEquals(expected, actual);
     }
+    @Test
+    public void testAddOrder() {
+        a.addOrder("hotdog");
+        int expected = 1;
+        int actual = a.getOrder().size();
+        assertEquals(expected, actual);
+    }
 
 
 

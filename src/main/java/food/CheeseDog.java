@@ -1,13 +1,13 @@
 package food;
 
-public class CheeseDog extends HotDogDecorator {
+public class CheeseDog extends Decorator {
     public CheeseDog(Food newHotDog) {
         super(newHotDog);
     }
     public String getDescription() {
-        return tempHotDog.getDescription() + ", Cheese";
+        return tempFood.getDescription() + ", Cheese";
     }
     public double getCost() {
-        return tempHotDog.getCost() + 0.5;
+        return tempFood.getCost() + 0.5;
     }
 }

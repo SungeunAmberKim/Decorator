@@ -1,14 +1,14 @@
 package food;
 
-public class CheeseBurger extends BurgerDecorator{
+public class CheeseBurger extends Decorator{
     public CheeseBurger(Food newBurger) {
         super(newBurger);
     }
     public String getDescription() {
-        return tempBurger.getDescription() + ", Cheese";
+        return tempFood.getDescription() + ", Cheese";
     }
     public double getCost() {
-        return tempBurger.getCost() + 0.5;
+        return tempFood.getCost() + 0.5;
     }
 
 }

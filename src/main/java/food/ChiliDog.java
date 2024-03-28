@@ -1,13 +1,13 @@
 package food;
 
-public class ChiliDog extends HotDogDecorator {
+public class ChiliDog extends Decorator {
     public ChiliDog(Food newHotDog) {
         super(newHotDog);
     }
     public String getDescription() {
-        return tempHotDog.getDescription() + ", Chili";
+        return tempFood.getDescription() + ", Chili";
     }
     public double getCost() {
-        return tempHotDog.getCost() + 0.5;
+        return tempFood.getCost() + 0.5;
     }
 }
