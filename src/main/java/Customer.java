@@ -3,7 +3,7 @@ import food.*;
 import java.util.ArrayList;
 public class Customer {
     private String name;
-    private ArrayList<Food> order;
+    private ArrayList<Order> order;
     private int points;
 
     public Customer(String name) {
@@ -20,25 +20,14 @@ public class Customer {
     public int getPoints() {
         return this.points;
     }
-    public ArrayList<Food> getOrder() {
+    public ArrayList<Order> getOrder() {
         return this.order;
     }
     public void addOrder(String food) {
-        String newFood = food.trim().toLowerCase();
-        if(newFood.equals("hotdog")) {
-            this.order.add(new BasicHotDog());
-        } else if(newFood.equals("fry")) {
-            this.order.add(new BasicFry());
-        } else if(newFood.equals("burger")) {
-            this.order.add(new BasicBurger());
-        } else {
-            return;
-        }
+        this.order.add(new Order(food));
         this.addPoints();
     }
-    public void addOn() {
 
-    }
 
 
 

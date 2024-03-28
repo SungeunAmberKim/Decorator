@@ -7,16 +7,8 @@
     <list default="true" id="a05afb84-f1e2-4687-9666-54446d6fc26b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/BurgerDecorator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseBurger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/CheeseBurger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/CheeseDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseFry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/CheeseFry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/ChiliDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/ChiliDog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/ExtraPatty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/ExtraPatty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/Gravy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Gravy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/HotDogDecorator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Decorator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CustomerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CustomerTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,12 +66,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="CustomerTest.testAddOrder" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="CompleteUnitTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Decorator" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="CustomerTest" />
-      <option name="METHOD_NAME" value="testAddOrder" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="CompleteUnitTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,8 +98,8 @@
         <item itemvalue="JUnit.HotdogTest" />
         <item itemvalue="JUnit.FryTest" />
         <item itemvalue="JUnit.BurgerTest" />
+        <item itemvalue="JUnit.CompleteUnitTest" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.CustomerTest.testAddOrder" />
       </list>
     </recent_temporary>
   </component>
@@ -147,5 +138,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/BurgerTest.java</url>
+          <line>5</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
