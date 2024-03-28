@@ -2,15 +2,22 @@ import food.*;
 
 public class Main {
     public static void main(String[] args) {
-        Food order = new BasicBurger();
-        Customer uni = new Customer("Uni");
+        Customer a = new Customer("Uni");
+        a.addOrder("breakfast","fry");
+        a.addOrder("lunch", "hotdog");
+        a.addOrder("dinner", "burger");
 
-        uni.addOrder("fry");
-        uni.addTopping("fry","cheese");
-        System.out.println(uni.getCost());
-        uni.addOrder("hotdog");
-        uni.addTopping("hotdog","cheese");
-        System.out.println(uni.getCost());
+        a.addTopping("breakfast","chili");
+        a.addTopping("breakfast","cheese");
+
+        a.addTopping("lunch","gravy");
+        a.addTopping("lunch","cheese");
+
+        a.addTopping("dinner","patty");
+        a.addTopping("dinner","gravy");
+
+
+        a.wah();
     }
 
 }

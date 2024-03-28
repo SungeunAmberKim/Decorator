@@ -1,10 +1,8 @@
 import food.*;
 public class Order {
-    private String name;
     private Food food;
 
     public Order(String item) {
-        this.name = item;
         String newFood = item.trim().toLowerCase();
         if(newFood.equals("hotdog")) {
             this.food =  new BasicHotDog();
@@ -13,10 +11,6 @@ public class Order {
         } else if(newFood.equals("burger")) {
             this.food = new BasicBurger();
         }
-    }
-
-    public String getName() {
-        return this.name;
     }
     public double getCost() {
         return this.food.getCost();
@@ -32,6 +26,9 @@ public class Order {
         } else if(topping.equals("patty")) {
             this.food = new Patty(this.food);
         }
+    }
+    public String toString() {
+        return this.food.getDescription();
     }
 
 }

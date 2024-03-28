@@ -12,25 +12,59 @@ public class CustomerTest {
         assertEquals(expected, actual);
     }
     @Test
-    public void testGetPoints() {
-        int expected = 0;
-        int actual = a.getPoints();
-        assertEquals(expected, actual);
-    }
-    @Test
-    public void testAddPoints() {
-        int expected = 1;
-        a.addPoints();
-        int actual = a.getPoints();
-        assertEquals(expected, actual);
-    }
-    @Test
     public void testAddOrder() {
-        a.addOrder("hotdog");
         int expected = 1;
-        int actual = a.getOrder().size();
+        a.addOrder("1","fry");
+        int actual = a.orderSize();
         assertEquals(expected, actual);
     }
+    @Test
+    public void testAddOrder2() {
+        int expected = 2;
+        a.addOrder("1","fry");
+        a.addOrder("2","hotdog");
+        int actual = a.orderSize();
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    public void testGetCost() {
+        double expected = 2.5;
+        a.addOrder("1","fry");
+        a.addTopping("1", "cheese");
+        double actual = a.getCost();
+        assertEquals(expected, actual);
+    }
+    @Test
+    public void testGetCost2() {
+        double expected = 5.5;
+        a.addOrder("1","fry");
+        a.addTopping("1", "cheese");
+        a.addOrder("2","hotdog");
+        double actual = a.getCost();
+        assertEquals(expected, actual);
+    }
+    @Test
+    public void testLoyaltyPts() {
+        double expected = 20.9;
+        a.addOrder("1","fry");
+        a.addOrder("2","fry");
+        a.addOrder("3","fry");
+        a.addOrder("4","fry");
+        a.addOrder("5","fry");
+        a.addOrder("6","fry");
+        a.addOrder("7","fry");
+        a.addOrder("8","fry");
+        a.addOrder("9","fry");
+        a.addOrder("10","fry");
+        a.addOrder("11","fry");
+
+        double actual = a.getCost();
+        assertEquals(expected, actual);
+    }
+
+
+
 
 
 
