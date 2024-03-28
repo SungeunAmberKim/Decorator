@@ -1,14 +1,16 @@
 import food.*;
 
 import java.util.ArrayList;
+import java.util.HashMap;
+
 public class Customer {
     private String name;
-    private ArrayList<Order> order;
+    private HashMap<String, Order> order;
     private int points;
 
     public Customer(String name) {
         this.name = name;
-        this.order = new ArrayList<>();
+        this.order = new HashMap<>();
         this.points = 0;
     }
     public String getName() {
@@ -20,12 +22,19 @@ public class Customer {
     public int getPoints() {
         return this.points;
     }
-    public ArrayList<Order> getOrder() {
-        return this.order;
-    }
     public void addOrder(String food) {
-        this.order.add(new Order(food));
+        this.order.put(food, new Order(food));
         this.addPoints();
+    }
+    public void addTopping(String food, String topping) {
+        this.order.get(food).addOn(topping);
+    }
+    public double getCost() {
+        double cost = 0;
+        for(Order each: this.order.values()) {
+            cost += each.getCost();
+        }
+        return cost;
     }
 
 

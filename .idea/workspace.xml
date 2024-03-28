@@ -6,15 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="a05afb84-f1e2-4687-9666-54446d6fc26b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseBurger.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Cheese.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseFry.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/ChiliDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Chili.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/ExtraPatty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Patty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/food/Gravy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Gravy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/BurgerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BurgerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/HotdogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotdogTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +49,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.HotdogTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="Decorator" />
@@ -101,11 +95,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.HotdogTest" />
         <item itemvalue="JUnit.FryTest" />
         <item itemvalue="JUnit.BurgerTest" />
         <item itemvalue="JUnit.CompleteUnitTest" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
