@@ -1,8 +1,8 @@
-package burgers;
+package food;
 
-abstract public class BurgerDecorator implements Burger {
-    protected Burger tempBurger;
-    public BurgerDecorator (Burger newBurger) {
+abstract public class BurgerDecorator implements Food {
+    protected Food tempBurger;
+    public BurgerDecorator (Food newBurger) {
         tempBurger = newBurger;
     }
     public String getDescription() {

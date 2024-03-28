@@ -1,11 +1,11 @@
-import fries.*;
+import food.*;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 public class FryTest {
-    Fry base = new BasicFry();
-    Fry cheese = new CheeseFry(new BasicFry());
-    Fry cheeseGravy = new Gravy(new CheeseFry(new BasicFry()));
+    Food base = new BasicFry();
+    Food cheese = new CheeseFry(new BasicFry());
+    Food cheeseGravy = new Gravy(new CheeseFry(new BasicFry()));
 
     @Test
     public void testBasicFryDescription() {

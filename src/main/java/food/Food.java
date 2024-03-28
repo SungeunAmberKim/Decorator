@@ -1,6 +1,6 @@
-package hotdogs;
+package food;
 
-public interface HotDog {
+public interface Food {
     public String getDescription();
     public double getCost();
 }

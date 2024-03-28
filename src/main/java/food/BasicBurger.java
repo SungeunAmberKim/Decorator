@@ -1,6 +1,6 @@
-package burgers;
+package food;
 
-public class BasicBurger implements Burger {
+public class BasicBurger implements Food {
     @Override
     public String getDescription() {
         return "Bun, Patty";

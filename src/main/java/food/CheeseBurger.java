@@ -1,7 +1,7 @@
-package burgers;
+package food;
 
 public class CheeseBurger extends BurgerDecorator{
-    public CheeseBurger(Burger newBurger) {
+    public CheeseBurger(Food newBurger) {
         super(newBurger);
     }
     public String getDescription() {

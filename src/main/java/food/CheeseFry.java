@@ -1,7 +1,9 @@
-package fries;
+package food;
 
-public class CheeseFry extends FryDecorator{
-    public CheeseFry(Fry newFry) {
+import food.FryDecorator;
+
+public class CheeseFry extends FryDecorator {
+    public CheeseFry(Food newFry) {
         super(newFry);
     }
     public String getDescription() {

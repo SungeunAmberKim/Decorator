@@ -1,13 +1,13 @@
-import burgers.*;
+import food.*;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class BurgerTest {
 
-    Burger baseBurger = new BasicBurger();
-    Burger cheeseBurger = new CheeseBurger(new BasicBurger());
-    Burger cheesePattyBurger = new ExtraPatty(new CheeseBurger(new BasicBurger()));
+    Food baseBurger = new BasicBurger();
+    Food cheeseBurger = new CheeseBurger(new BasicBurger());
+    Food cheesePattyBurger = new ExtraPatty(new CheeseBurger(new BasicBurger()));
 
     @Test
     public void testBasicBurgerDescription() {

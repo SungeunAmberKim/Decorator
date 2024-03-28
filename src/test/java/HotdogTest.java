@@ -1,11 +1,11 @@
-import hotdogs.*;
+import food.*;
 import org.junit.Test;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 public class HotdogTest {
-    HotDog basic = new BasicHotDog();
-    HotDog cheese = new CheeseDog(new BasicHotDog());
-    HotDog chiliCheese = new ChiliDog(new CheeseDog(new BasicHotDog()));
+    Food basic = new BasicHotDog();
+    Food cheese = new CheeseDog(new BasicHotDog());
+    Food chiliCheese = new ChiliDog(new CheeseDog(new BasicHotDog()));
 
     @Test
     public void testBasicHotDogDescription() {
