@@ -1,7 +1,7 @@
-package hotdogs;
+package food;
 
-public class CheeseDog extends HotDogDecorator{
-    public CheeseDog(HotDog newHotDog) {
+public class CheeseDog extends HotDogDecorator {
+    public CheeseDog(Food newHotDog) {
         super(newHotDog);
     }
     public String getDescription() {

@@ -1,8 +1,8 @@
-package hotdogs;
+package food;
 
-abstract public class HotDogDecorator implements HotDog {
-    protected HotDog tempHotDog;
-    public HotDogDecorator (HotDog newHotDog) {
+abstract public class HotDogDecorator implements Food {
+    protected Food tempHotDog;
+    public HotDogDecorator (Food newHotDog) {
         tempHotDog = newHotDog;
     }
     public String getDescription() {

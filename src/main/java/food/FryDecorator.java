@@ -1,8 +1,8 @@
-package fries;
+package food;
 
-abstract public class FryDecorator implements Fry{
-    protected Fry tempFry;
-    public FryDecorator (Fry newFry) {
+abstract public class FryDecorator implements Food{
+    protected Food tempFry;
+    public FryDecorator (Food newFry) {
         tempFry = newFry;
     }
     public String getDescription() {
