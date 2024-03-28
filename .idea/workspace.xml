@@ -6,9 +6,15 @@
   <component name="ChangeListManager">
     <list default="true" id="a05afb84-f1e2-4687-9666-54446d6fc26b" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Order.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Order.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseBurger.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Cheese.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/CheeseFry.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/ChiliDog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Chili.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/ExtraPatty.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Patty.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/food/Gravy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/food/Gravy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/BurgerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/BurgerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FryTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/HotdogTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/HotdogTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -138,16 +144,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/BurgerTest.java</url>
-          <line>5</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

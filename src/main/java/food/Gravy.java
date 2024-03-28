@@ -1,8 +1,8 @@
 package food;
 
 public class Gravy extends Decorator {
-    public Gravy(Food newFry) {
-        super(newFry);
+    public Gravy(Food newFood) {
+        super(newFood);
     }
     public String getDescription() {
         return tempFood.getDescription() + ", Gravy";

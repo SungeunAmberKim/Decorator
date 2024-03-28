@@ -1,8 +1,8 @@
 package food;
 
-public class ExtraPatty extends Decorator{
-    public ExtraPatty(Food newBurger) {
-        super(newBurger);
+public class Patty extends Decorator{
+    public Patty(Food newFood) {
+        super(newFood);
     }
     public String getDescription() {
         return tempFood.getDescription() + ", Patty";
