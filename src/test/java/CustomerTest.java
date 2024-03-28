@@ -62,7 +62,7 @@ public class CustomerTest {
         double actual = a.getCost();
         assertEquals(expected, actual);
     }
-    
+
 
 
 
