@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="a05afb84-f1e2-4687-9666-54446d6fc26b" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/burgers/BasicBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/burgers/Burger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/burgers/BurgerDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/burgers/CheeseBurger.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/burgers/ExtraPatty.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fries/BasicFry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fries/CheeseFry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fries/Fry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fries/FryDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/fries/Gravy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hotdogs/BasicHotDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hotdogs/CheeseDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hotdogs/ChiliDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hotdogs/HotDog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/hotdogs/HotDogDecorator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BurgerTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FryTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/HotdogTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="2eI3Hfiv1fXRo809XgGVrs9kaQz" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.folding",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunManager" selected="JUnit.FryTest">
+    <configuration name="BurgerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Decorator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BurgerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BurgerTest.testBasicBurgerDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Decorator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BurgerTest" />
+      <option name="METHOD_NAME" value="testBasicBurgerDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Decorator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotdogTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Decorator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotdogTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotdogTest.testBasicHotDogDescription" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Decorator" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="HotdogTest" />
+      <option name="METHOD_NAME" value="testBasicHotDogDescription" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.FryTest" />
+        <item itemvalue="JUnit.HotdogTest" />
+        <item itemvalue="JUnit.HotdogTest.testBasicHotDogDescription" />
+        <item itemvalue="JUnit.BurgerTest" />
+        <item itemvalue="JUnit.BurgerTest.testBasicBurgerDescription" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a05afb84-f1e2-4687-9666-54446d6fc26b" name="Changes" comment="" />
+      <created>1711578179305</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1711578179305</updated>
+      <workItem from="1711578180333" duration="2048000" />
+      <workItem from="1711582904482" duration="405000" />
+      <workItem from="1711583317090" duration="3373000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
